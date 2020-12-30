@@ -1,0 +1,30 @@
+{
+  "name": "gioppy/statamic-aggregate-assets",
+  "description": "Aggregate Javascript and CSS files for better performances.",
+  "autoload": {
+    "psr-4": {
+      "Gioppy\\StatamicAggregateAssets\\": "src"
+    }
+  },
+  "authors": [
+    {
+      "name": "Giovanni Buffa",
+      "email": "tech@giovannibuffa.it"
+    }
+  ],
+  "extra": {
+    "statamic": {
+      "name": "Aggregate assets",
+      "description": "Aggregate Javascript and CSS files for better performances."
+    },
+    "laravel": {
+      "providers": [
+        "Gioppy\\StatamicAggregateAssets\\ServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "ext-dom": "*",
+    "statamic/cms": "3.0.*"
+  }
+}
