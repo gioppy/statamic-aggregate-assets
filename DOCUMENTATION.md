@@ -1,8 +1,10 @@
-## Aggregate assets for Statamic 3
+## Installation
 
-Aggregate CSS and JavaScript files into one single file for better loading performance.
+You can install the addon directly from the Statamic interface after installing it. You can also install it directly from composer with the command:
 
-### How to use
+```composer require gioppy/statamic-aggregate-assets```
+
+## How to use
 
 After installing the addon, create a new disk in the `config/filesystems.php` file:
 
@@ -40,7 +42,7 @@ For better usage, use Aggregate in conjunction with `{{ yield }}`:
 </html>
 ```
 
-In your blueprint `.antlers.html` file use as always:
+In your blueprint .antlers.html file use as always:
 
 ```
 ...
