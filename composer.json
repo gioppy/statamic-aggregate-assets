@@ -25,6 +25,6 @@
   },
   "require": {
     "ext-dom": "*",
-    "statamic/cms": "3.0.*"
+    "statamic/cms": "^3.0"
   }
 }
